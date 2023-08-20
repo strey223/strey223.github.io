@@ -23,7 +23,7 @@ body .cas {
     margin-left: auto;
 }
 
-.line-right {
+.line {
     border-top: 3px solid #4a2a21;
     display: inline-block;
     padding-bottom: 20px;
@@ -32,8 +32,19 @@ body .cas {
     margin-left: auto;
 }
 
+.line-right {
+    border-top: 3px solid #4a2a21;
+    display: inline-block;
+    padding-bottom: 20px;
+    min-width: 30px;
+    max-width: 180px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .heading {
     font-size: 70px;
+    display: inline-block;
     font-family: "Times New Roman", Times, serif;
     color: #4a2a21;
 }
@@ -84,4 +95,25 @@ body .cas {
 
     color: #473426;
     font-size: 20px;
+}
+
+.first-step:before {
+    content: '';
+    border-top: 3px solid #4a2a21;
+    display: inline-block;
+    padding-bottom: 20px;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.first-step:after {
+    content: '';
+    border-top: 3px solid #4a2a21;
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 5px;
+    max-width: 100px;
 }
