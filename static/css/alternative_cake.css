@@ -98,3 +98,22 @@ body .cas {
     font-family: "Times New Roman", Times, serif;
     align-self: flex-start;
 }
+
+.filling {
+    margin-top: 20px;
+}
+.title-filling {
+    color: #A59484;
+    font-size: 60px;
+    font-family: "Times New Roman", Times, serif;
+    align-content: center;
+}
+
+.name-filling {
+    color: #462F23;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+    align-content: center;
+}
