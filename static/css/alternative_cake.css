@@ -20,7 +20,7 @@ body .cas {
 }
 
 .heading {
-    font-size: 70px;
+    font-size: 60px;
     padding-left: 30px;
     padding-right: 30px;
     font-family: "Times New Roman", Times, serif;
@@ -65,17 +65,17 @@ body .cas {
     text-align: left;
     border-color: #473b2d;
     font-family: "Times New Roman", Times, serif;
-    font-size: 45px;
+    font-size: 35px;
     vertical-align: bottom;
     position: relative;
-    max-width: 470px;
+    max-width: 450px;
 }
 
 .ellipsis {
     flex: 1 1 max-content;
     align-self: flex-start;
     flex-basis: max-content;
-    font-size: 45px;
+    font-size: 35px;
     margin-inline-start: 1ch;
     overflow: hidden;
     white-space:nowrap;
@@ -85,7 +85,7 @@ body .cas {
 }
 
 .price {
-    flex: 0 0 170px;
+    flex: 0 0 190px;
     display: inline;
     background-color: #462b20;
     margin-left: auto;
@@ -94,7 +94,7 @@ body .cas {
     text-align: center;
     padding: 10px;
     border-radius: 40px;
-    font-size: 30px;
+    font-size: 25px;
     font-family: "Times New Roman", Times, serif;
     align-self: flex-start;
 }
@@ -104,7 +104,7 @@ body .cas {
 }
 .title-filling {
     color: #A59484;
-    font-size: 60px;
+    font-size: 40px;
     font-family: "Times New Roman", Times, serif;
     align-content: center;
 }
@@ -113,7 +113,7 @@ body .cas {
     color: #462F23;
     padding-bottom: 5px;
     padding-top: 5px;
-    font-size: 40px;
+    font-size: 30px;
     font-family: "Times New Roman", Times, serif;
     align-content: center;
 }
