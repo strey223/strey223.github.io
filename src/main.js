@@ -10,4 +10,9 @@ window.onload = function() {
         const clientRect = range.getBoundingClientRect();
         el.style.width = `${clientRect.width}px`;
     }
+    let cake = document.getElementById('heading')
+
+    cake.addEventListener("click", () => {
+        document.location.assign('https://strey223.github.io/static/html/alternative_cake.html');
+    });
 }
