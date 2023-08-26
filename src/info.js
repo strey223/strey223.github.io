@@ -64,6 +64,9 @@ window.addEventListener("load", function() {
     function viewRow() {
         let jsonData = localStorage.getItem('data');
         let data = JSON.parse(jsonData);
+        if (data === null) {
+            return;
+        }
         console.log(data);
         for (let value of data) {
             add_row_element(value['nameInput'], value['priceInput'], value['descriptionInput'], value['pageInput']);
