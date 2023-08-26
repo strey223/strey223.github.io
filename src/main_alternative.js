@@ -65,6 +65,9 @@ window.addEventListener("load", function () {
 
     function addFillings() {
         let fillingData = cakeInfo['filling'];
+        if (typeof fillingData === 'undefined') {
+            return;
+        }
         let data = fillingData.split('/');
         console.log(data);
         let lengthData = data.length;
