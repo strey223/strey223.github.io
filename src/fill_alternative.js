@@ -41,7 +41,7 @@ window.addEventListener('load', () => {
                 let cakeBlock = document.querySelector('.cake-div');
                 cakeBlock.insertAdjacentHTML('beforeEnd', text);
                 if (types !== []) {
-                    fillTypes(cakeBlock.lastChild, types);
+                    fillTypes(cakeBlock.lastChild.querySelector('.div_type_cakes'), types);
                 }
             }).catch((e) => console.error(e));
     }
