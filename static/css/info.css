@@ -1,0 +1,31 @@
+table {
+    width: 100%;
+}
+
+tr:nth-child(even) {
+    background-color: lightgreen;
+}
+tr:nth-child(odd) {
+    background: lightgray;
+}
+
+td {
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+textarea {
+    width: 90%;
+    height: 50px;
+}
+td {
+    text-align: center;
+}
+
+.actions {
+    text-align: center;
+}
+
+tr:hover {
+    background-color: gray;
+}

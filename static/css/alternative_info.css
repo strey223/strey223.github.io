@@ -1,0 +1,14 @@
+.add_description_div {
+}
+
+.add_description_div:nth-child(even) {background: #CCC}
+.add_description_div:nth-child(odd) {background: #FFF}
+
+.cake-div {
+    padding: 5px;
+    border-bottom: 1px solid #4a2a21;
+}
+
+.div_add {
+    padding: 5px;
+}

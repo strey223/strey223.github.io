@@ -1,4 +1,4 @@
-window.onload = function() {
+window.addEventListener("load", function () {
     const range = document.createRange();
     const blocks = document.querySelectorAll('.name_product');
 
@@ -13,6 +13,6 @@ window.onload = function() {
     let cake = document.getElementById('heading')
 
     cake.addEventListener("click", () => {
-        document.location.assign('https://strey223.github.io/static/html/alternative_cake.html');
+        document.location.assign('info.html');
     });
-}
+});
