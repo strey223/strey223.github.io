@@ -1,5 +1,14 @@
+* {
+    font-size: 40px;
+}
+
+body {
+    background-color: #f2ebdb;
+}
+
 .add_description_div {
 }
+
 
 .add_description_div:nth-child(even) {background: #CCC}
 .add_description_div:nth-child(odd) {background: #FFF}
